@@ -1,6 +1,6 @@
 [user]
 	name = Marcus Kruse
-	email = esurk.sucarm@gmail.com
+	email = esurk.sucram@gmail.com
 [core]
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
