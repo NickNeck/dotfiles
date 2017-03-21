@@ -69,6 +69,8 @@ info "setup dotfiles ..."
 create_backup_dir
 install_dotfiles
 
+link "$DOTFILES_ROOT/config" "$HOME/.config"
+
 info "... ready"
 echo ""
 
