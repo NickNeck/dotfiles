@@ -26,11 +26,20 @@ brew 'exercism'
 brew 'erlang'
 brew 'elixir'
 brew 'node'
+brew 'python3'
+brew 'leiningen'
+# brew 'clojure'
+brew 'go'
+brew 'clisp'
+
+# Mac App Store command line interface
+brew 'mas'
 
 # Apps
 cask 'firefox'
 cask 'google-chrome'
 # cask 'sequel-pro'
+cask 'java' unless system '/usr/libexec/java_home --failfast'
 
 # Fonts
 cask 'font-sauce-code-powerline'

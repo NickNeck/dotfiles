@@ -71,6 +71,8 @@ install_dotfiles
 
 link "$DOTFILES_ROOT/config" "$HOME/.config"
 
+pip3 install neovim
+
 info "... ready"
 echo ""
 

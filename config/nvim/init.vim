@@ -15,8 +15,9 @@ Plug 'vim-scripts/vim-auto-save'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'elixir-lang/vim-elixir'
+Plug 'slashmili/alchemist.vim'
 Plug 'neomake/neomake'
-" Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim'
 " Plug 'mhartington/nvim-typescript'
 " Use vim-flow because neomake-flow does not work (2016-07-05)
 Plug 'facebook/vim-flow', {
@@ -100,7 +101,7 @@ let g:auto_save_silent = 1  " do not display the auto-save notification
 "==============================================================================
 " Filetypes
 " Add filetype es6
-autocmd BufNewFile,BufRead *.es6 set filetype=javascript
+" autocmd BufNewFile,BufRead *.es6 set filetype=javascript
 
 "==============================================================================
 " Airline configuration
@@ -120,7 +121,9 @@ let g:airline_section_z = '%c/%l'
 let g:neomake_javascript_enabled_makers = ['eslint', 'flow']
 " Check javascripts on enter and write buffer
 " autocmd BufWritePost,BufEnter *.js,*.es6 Neomake
-autocmd BufWritePost,BufReadPost,InsertLeave *.js,*.es6 silent Neomake
+" autocmd BufWritePost,BufReadPost,InsertLeave *.js, *.es6 silent Neomake
+autocmd BufWritePost,BufReadPost,InsertLeave *.ex silent Neomake
+autocmd BufWritePost,BufReadPost,InsertLeave *.exs silent Neomake
 " let g:neomake_open_list = 2
 " let g:neomake_verbose = 3
 
