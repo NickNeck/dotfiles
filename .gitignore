@@ -1,2 +1,6 @@
 backup/
-config/nvim/plugins/
+
+config/nvim/*
+!config/nvim/autoload/
+!config/nvim/colors/
+!config/nvim/init.vim

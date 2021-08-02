@@ -1,5 +1,0 @@
-DOTFILES=$HOME/.dotfiles
-
-source $DOTFILES/config/exports.sh
-source $DOTFILES/config/aliases.sh
-source $DOTFILES/config/functions.sh
