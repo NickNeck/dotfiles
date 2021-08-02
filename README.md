@@ -1,5 +1,6 @@
 # Nick's Dotfiles
 Just another dotfiles-repo.
+
 Version: 0.0.2
 
 ```shell
