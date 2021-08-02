@@ -1,0 +1,37 @@
+tap 'caskroom/cask'
+cask_args appdir: '/Applications'
+
+# Install GNU core utilities (those that come with macOS are outdated)
+brew 'coreutils'
+
+# Install Binaries
+brew 'curl'
+brew 'fuck'
+brew 'fzy'
+brew 'git'
+brew 'mas'
+brew 'tree'
+brew 'wget'
+
+# Editor
+brew 'neovim'
+
+# Development
+brew 'asdf'
+brew 'node'
+brew 'yarn'
+
+# Apps
+cask 'brave-browser'
+cask 'docker'
+cask 'firefox'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'postgres-unofficial'
+
+# Fonts
+cask 'font-sauce-code-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+

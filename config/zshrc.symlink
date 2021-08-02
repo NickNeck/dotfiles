@@ -1,0 +1,28 @@
+# oh my zsh
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="my_agnoster"
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+
+# Customize prompt
+prompt_context(){}
+
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=24'
+
+# Elixir iex history
+export ERL_AFLAGS="-kernel shell_history enabled"
+
+# Aliases
+alias gh='cd `git rev-parse --show-toplevel`'
+alias gdirs='git ls-files | xargs -n 1 dirname | sort -u'
+alias gfd='gh && cd `gdirs | fzy`'
+eval $(thefuck --alias)
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# asdf
+source .asdf/asdf.sh
