@@ -90,8 +90,8 @@ case $1 in
   brew | "")
     source install/brew.sh
     ;;
-  app-store)
-    source install/app-store.sh
+  brew.mas | "")
+    source install/brew.mas.sh
     ;;
   oh-my-zsh | "")
     source install/oh-my-zsh.sh
