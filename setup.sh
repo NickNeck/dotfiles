@@ -12,7 +12,7 @@ DOTFILES_ROOT=$(pwd -P)
 BACKUP_DIR=$DOTFILES_ROOT/backup
 
 DEBUG_FLAG=true
-DRY_FLAG=true
+DRY_FLAG=false
 
 info () {
   printf "[info ] \e[1;34m%-6s\e[m\n" "$1"
@@ -29,8 +29,7 @@ cmd () {
   printf "[cmd  ] %s\n" "$1"
   if [ $DRY_FLAG = false ]
   then
-    echo "eval"
-    # eval $1
+    eval $1
   fi
 }
 
