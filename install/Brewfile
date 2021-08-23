@@ -12,12 +12,13 @@ brew 'coreutils'
 
 # Install Binaries
 brew 'curl'
-brew 'fuck'
+brew 'thefuck'
 brew 'fzy'
 brew 'git'
 brew 'gpg'
 brew 'mas'
 brew 'tree'
+brew 'svn'
 brew 'wget'
 
 # Editor
@@ -27,7 +28,7 @@ brew 'neovim'
 brew 'act'
 brew 'asdf'
 brew 'node'
-brew 'yarn', args: ["without-node"]
+brew 'yarn'
 
 # Apps
 cask 'brave-browser'
@@ -40,7 +41,8 @@ cask 'postgres-unofficial'
 cask 'slack'
 
 # Fonts
-cask 'font-sauce-code-powerline'
+# cask 'font-sauce-code-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask 'font-fira-code'
