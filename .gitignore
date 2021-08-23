@@ -3,4 +3,7 @@ backup/
 config/nvim/*
 !config/nvim/autoload/
 !config/nvim/colors/
-!config/nvim/init.vim
+!config/nvim/init.lua
+!config/nvim/lua/
+!config/nvim/plugin/
+
