@@ -14,4 +14,4 @@ cmd 'brew update'
 
 BREWFILE=$DOTFILES_ROOT/install/app-store/Brewfile
 info 'install AppStore apps'
-cmd "brew bundle --file=$BREWFILE"
+cmd "brew bundle -v --file=$BREWFILE"

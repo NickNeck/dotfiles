@@ -14,4 +14,4 @@ cmd 'brew update'
 
 BREWFILE=$DOTFILES_ROOT/install/Brewfile
 info 'install all dependencies with bundle'
-cmd "brew bundle --file=$BREWFILE"
+cmd "brew bundle -v --file=$BREWFILE"

@@ -90,7 +90,7 @@ case $1 in
   brew | "")
     source install/brew.sh
     ;;
-  brew.mas | "")
+  brew.mas)
     source install/brew.mas.sh
     ;;
   oh-my-zsh | "")

@@ -3,9 +3,37 @@ Just another dotfiles-repo.
 
 Version: 0.0.2
 
+## Usage
+
+Run all steps (excluding `brew.mas`):
+
 ```shell
-source setup.sh
+&> source setup.sh
 ```
+
+Run on step:
+
+```shell
+&> source setup.sh brew
+```
+
+```shell
+&> source setup.sh brew.mas
+```
+
+```shell
+&> source setup.sh oh-my-zsh
+```
+
+```shell
+&> source setup.sh settings
+```
+
+```shell
+&> source setup.sh asdf
+```
+
+Run
 
 ## Resources
 * [Your unofficial guide to dotfiles on GitHub.](https://dotfiles.github.io/)
