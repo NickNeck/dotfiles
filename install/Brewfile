@@ -15,6 +15,7 @@ brew 'curl'
 brew 'fuck'
 brew 'fzy'
 brew 'git'
+brew 'gpg'
 brew 'mas'
 brew 'tree'
 brew 'wget'
@@ -23,6 +24,7 @@ brew 'wget'
 brew 'neovim'
 
 # Development
+brew 'act'
 brew 'asdf'
 brew 'node'
 brew 'yarn', args: ["without-node"]
