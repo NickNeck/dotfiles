@@ -17,9 +17,11 @@ brew 'fzy'
 brew 'git'
 brew 'gpg'
 brew 'mas'
+brew 'rg'
 brew 'tree'
 brew 'svn'
 brew 'wget'
+brew 'zsh-autosuggestions'
 
 # Editor
 brew 'neovim'
