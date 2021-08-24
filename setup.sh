@@ -101,6 +101,9 @@ case $1 in
   asdf | "")
     source settings/asdf.sh
     ;;
+  nvim | "")
+    source settings/nvim.sh
+    ;;
 esac
 
 info "... ready"
