@@ -10,3 +10,4 @@ config/nvim/plugin/packer_compiled.lua
 
 config/thefuck/
 
+config/iterm2
