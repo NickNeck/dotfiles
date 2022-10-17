@@ -18,7 +18,7 @@ typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=24'
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # Aliases
-alias gh='cd `git rev-parse --show-toplevel`'
+alias gho='cd `git rev-parse --show-toplevel`'
 alias gdirs='git ls-files | xargs -n 1 dirname | sort -u'
 alias gfd='gh && cd `gdirs | fzy`'
 eval "$(/opt/homebrew/bin/brew shellenv)"
