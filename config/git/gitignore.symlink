@@ -1,6 +1,7 @@
 *~
 
 ### macOS ###
+
 # General
 .DS_Store
 .AppleDouble
@@ -29,6 +30,7 @@ Temporary Items
 .apdisk
 
 ### Vim ###
+
 # Swap
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
@@ -42,24 +44,23 @@ Session.vim
 # Temporary
 .netrwhist
 *~
+
 # Auto-generated tag files
 tags
+
 # Persistent undo
 [._]*.un~
 
 ### asdf ###
 .tool-versions
 
-### Elixir Language Server
-
+### Elixir Language Server ###
 .elixir_ls
 
-### fucking idea ###
+### direnv ####
+.envrc
 
-.idea
-
-### personal ###
-
+### Personal ###
 my.env.sh
-/playground
-
+playground
+zzz*
