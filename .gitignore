@@ -1,14 +1,8 @@
 backup/
 
-config/nvim/*
-!config/nvim/autoload/
-!config/nvim/colors/
-!config/nvim/init.lua
-!config/nvim/lua/
-!config/nvim/plugin/
-config/nvim/plugin/packer_compiled.lua
-
 config/thefuck/
 config/iterm2
 config/gem
 config/gh
+config/asciinema
+config/rstudio
