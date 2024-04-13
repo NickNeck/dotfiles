@@ -24,5 +24,9 @@ alias gfd='gh && cd `gdirs | fzy`'
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval $(thefuck --alias)
 
+# Kerl options
+export KERL_BUILD_DOCS=yes
+export KERL_DOC_TARGETS="man html chunks"
+
 # Load the asdf wraper function
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
