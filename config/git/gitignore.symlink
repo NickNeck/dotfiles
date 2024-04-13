@@ -56,6 +56,7 @@ tags
 
 ### Elixir Language Server ###
 .elixir_ls
+.lexical
 
 ### direnv ####
 .envrc
