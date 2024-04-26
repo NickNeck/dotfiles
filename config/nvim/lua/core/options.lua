@@ -42,3 +42,6 @@ opt.swapfile = false
 
 -- Line length marker
 opt.colorcolumn = "81,100"
+
+-- Lines of context
+opt.scrolloff = 10
