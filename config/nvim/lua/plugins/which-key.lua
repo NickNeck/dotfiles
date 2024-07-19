@@ -24,22 +24,22 @@ return {
 		defaults = {
 			mode = { "n", "v" },
 			-- ["d"] = { name = "which_key_ignore" },
-			["g"] = { name = "goto" },
-			["]"] = { name = "next" },
-			["["] = { name = "prev" },
-			["s"] = { name = "Leap to" },
-			["<leader>c"] = { name = "clear" },
-			["<leader>e"] = { name = "explorer" },
-			["<leader>f"] = { name = "file/find" },
-			["<leader>h"] = { name = "+hunks" },
-			["<leader>l"] = { name = "lazy" },
-			["<leader>s"] = { name = "split" },
-			["<leader>x"] = { name = "+diagnostics/quickfix" },
+      { "g", group= "goto" },
+      { "]", group= "next" },
+      { "[", group= "prev" },
+      { "s", group= "leap to" },
+      { "<leader>f", group= "file/find" },
+      { "<leader>c", group= "clear" },
+      { "<leader>e", group= "explorer" },
+      { "<leader>h", group= "hunks" },
+      { "<leader>l", group= "lazy" },
+      { "<leader>s", group= "split" },
+      { "<leader>x", group= "diagnostics/quickfix" },
 		},
 	},
 	config = function(_, opts)
 		local wk = require("which-key")
 		wk.setup(opts)
-		wk.register(opts.defaults)
+		wk.add(opts.defaults)
 	end,
 }
