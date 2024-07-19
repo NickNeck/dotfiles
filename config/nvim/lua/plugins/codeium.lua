@@ -26,6 +26,10 @@ return {
 			return vim.fn["codeium#Clear"]()
 		end, { expr = true, silent = true })
 
-		require("codeium").setup()
+		require("codeium").setup({
+      options = {
+        enable_chat = true
+      }
+    })
 	end,
 }
